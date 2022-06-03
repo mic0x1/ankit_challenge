@@ -1,0 +1,236 @@
+{
+    "title": "第四段生字考試 / U8 中文及 DEF",
+    "version": "1.0",
+    "list": [
+        {
+            "ans": "alcohol",
+            "side": "酒精",
+            "sub": "n."
+        },
+        {
+            "ans": "exercise",
+            "side": "運動",
+            "sub": "n."
+        },
+        {
+            "ans": "drug",
+            "side": "毒品",
+            "sub": "n."
+        },
+        {
+            "ans": "food",
+            "side": "食物",
+            "sub": "n."
+        },
+        {
+            "ans": "gambling",
+            "side": "賭博",
+            "sub": "n."
+        },
+        {
+            "ans": "internet",
+            "side": "國際互聯網",
+            "sub": "n."
+        },
+        {
+            "ans": "shopping",
+            "side": "購物",
+            "sub": "n."
+        },
+        {
+            "ans": "tobacco",
+            "side": "煙草",
+            "sub": "n."
+        },
+        {
+            "ans": "video game",
+            "side": "電子遊戲",
+            "sub": "n."
+        },
+        {
+            "ans": "boredom",
+            "side": "無聊",
+            "sub": "n."
+        },
+        {
+            "ans": "curiosity",
+            "side": "好奇心",
+            "sub": "n."
+        },
+        {
+            "ans": "domestic violence",
+            "side": "家庭的暴力行為",
+            "sub": "adj. n."
+        },
+        {
+            "ans": "exam stress",
+            "side": "考試壓力",
+            "sub": "n. phr."
+        },
+        {
+            "ans": "loneliness",
+            "side": "孤獨",
+            "sub": "n."
+        },
+        {
+            "ans": "nervousness",
+            "side": "焦慮",
+            "sub": "n."
+        },
+        {
+            "ans": "parents' divorce",
+            "side": "父母離婚",
+            "sub": "n."
+        },
+        {
+            "ans": "peer pressure",
+            "side": "同輩間的壓力",
+            "sub": "n."
+        },
+        {
+            "ans": "sadness",
+            "side": "悲傷",
+            "sub": "n."
+        },
+        {
+            "ans": "frequently",
+            "side": "經常地",
+            "sub": "adv."
+        },
+        {
+            "ans": "gender",
+            "side": "性別",
+            "sub": "n."
+        },
+        {
+            "ans": "refresh",
+            "side": "刷新",
+            "sub": "v."
+        },
+        {
+            "ans": "upload",
+            "side": "上載",
+            "sub": "v."
+        },
+        {
+            "ans": "castle",
+            "side": "城堡",
+            "sub": "n."
+        },
+        {
+            "ans": "filter",
+            "side": "圖片編輯的濾鏡效果",
+            "sub": "n."
+        },
+        {
+            "ans": "husband",
+            "side": "丈夫",
+            "sub": "n."
+        },
+        {
+            "ans": "sincerely",
+            "side": "真誠地",
+            "sub": "adv."
+        },
+        {
+            "ans": "fulfilling",
+            "side": "令人滿足的",
+            "sub": "adj."
+        },
+        {
+            "ans": "ignore",
+            "side": "忽視",
+            "sub": "v."
+        },
+        {
+            "ans": "instrument",
+            "side": "樂器",
+            "sub": "n."
+        },
+        {
+            "ans": "mealtime",
+            "side": "就餐時間",
+            "sub": "n."
+        },
+        {
+            "ans": "self-help",
+            "side": "自助的",
+            "sub": "adj."
+        },
+        {
+            "ans": "tool",
+            "side": "工具",
+            "sub": "n."
+        },
+        {
+            "ans": "frequently",
+            "side": "regularly or habitually; often",
+            "sub": "adv."
+        },
+        {
+            "ans": "gender",
+            "side": "either or the two sexes (male and female)",
+            "sub": "n."
+        },
+        {
+            "ans": "refresh",
+            "side": "to update the display (on a screen)",
+            "sub": "v."
+        },
+        {
+            "ans": "upload",
+            "side": "to transfer data from one computer to another",
+            "sub": "v."
+        },
+        {
+            "ans": "castle",
+            "side": "a large building, usually of the medieval period, with thick walls and towers",
+            "sub": "n."
+        },
+        {
+            "ans": "filter",
+            "side": "a function used to change the overall appearance of an image in a specific way",
+            "sub": "n."
+        },
+        {
+            "ans": "husband",
+            "side": "a married man considered in relation to his spouse",
+            "sub": "n."
+        },
+        {
+            "ans": "sincerely",
+            "side": "in a genuine or honest way",
+            "sub": "adv."
+        },
+        {
+            "ans": "fulfilling",
+            "side": "making someone satisfied or happy through allowing their character or abillities to develop fully",
+            "sub": "adj."
+        },
+        {
+            "ans": "ignore",
+            "side": "refuse to take notice of or acknowledge",
+            "sub": "v."
+        },
+        {
+            "ans": "instrument",
+            "side": "an object or device for producing musical sounds",
+            "sub": "n."
+        },
+        {
+            "ans": "mealtime",
+            "side": "the time at which a meal is eaten",
+            "sub": "n."
+        },
+        {
+            "ans": "self-help",
+            "side": "designed to assit people in achieving things for themselves",
+            "sub": "adj."
+        },
+        {
+            "ans": "tool",
+            "side": "a thing used to help perform a job",
+            "sub": "n."
+        }
+    ]
+}

@@ -1,0 +1,506 @@
+{
+    "title": "第四段生字考試 / U7 及 U8 / 中文及 DEF",
+    "version": "1.0",
+    "list": [
+        {
+            "ans": "castle",
+            "side": "城堡",
+            "sub": "n."
+        },
+        {
+            "ans": "cave",
+            "side": "洞穴",
+            "sub": "n."
+        },
+        {
+            "ans": "dungeon",
+            "side": "地牢",
+            "sub": "n."
+        },
+        {
+            "ans": "forest",
+            "side": "森林",
+            "sub": "n."
+        },
+        {
+            "ans": "graveyard",
+            "side": "墓地",
+            "sub": "n."
+        },
+        {
+            "ans": "haunted house",
+            "side": "鬼屋",
+            "sub": "n."
+        },
+        {
+            "ans": "heaven",
+            "side": "天堂",
+            "sub": "n."
+        },
+        {
+            "ans": "prison",
+            "side": "監獄",
+            "sub": "n."
+        },
+        {
+            "ans": "spaceship",
+            "side": "太空船",
+            "sub": "n."
+        },
+        {
+            "ans": "dragon",
+            "side": "龍",
+            "sub": "n."
+        },
+        {
+            "ans": "fairy",
+            "side": "仙子",
+            "sub": "n."
+        },
+        {
+            "ans": "ghost",
+            "side": "鬼",
+            "sub": "n."
+        },
+        {
+            "ans": "giant",
+            "side": "巨人",
+            "sub": "n."
+        },
+        {
+            "ans": "vampire",
+            "side": "吸血鬼",
+            "sub": "n."
+        },
+        {
+            "ans": "werewolf",
+            "side": "狼人",
+            "sub": "n."
+        },
+        {
+            "ans": "wizard",
+            "side": "男巫",
+            "sub": "n."
+        },
+        {
+            "ans": "zombie",
+            "side": "喪尸",
+            "sub": "n."
+        },
+        {
+            "ans": "crime",
+            "side": "犯罪活动",
+            "sub": "n."
+        },
+        {
+            "ans": "fairy tale",
+            "side": "童話",
+            "sub": "n."
+        },
+        {
+            "ans": "fantasy",
+            "side": "魔幻故事",
+            "sub": "n."
+        },
+        {
+            "ans": "historical",
+            "side": "有關歷史的",
+            "sub": "adj."
+        },
+        {
+            "ans": "horror",
+            "side": "恐怖性",
+            "sub": "n."
+        },
+        {
+            "ans": "mystery",
+            "side": "神秘的事物",
+            "sub": "n."
+        },
+        {
+            "ans": "romance",
+            "side": "浪漫",
+            "sub": "n."
+        },
+        {
+            "ans": "science fiction",
+            "side": "科幻小說",
+            "sub": "n."
+        },
+        {
+            "ans": "western",
+            "side": "西方國家的",
+            "sub": "n."
+        },
+        {
+            "ans": "classic",
+            "side": "經典的",
+            "sub": "adj."
+        },
+        {
+            "ans": "grave",
+            "side": "墳墓",
+            "sub": "n."
+        },
+        {
+            "ans": "terrified",
+            "side": "懼怕的",
+            "sub": "adj."
+        },
+        {
+            "ans": "alien",
+            "side": "外星人",
+            "sub": "n."
+        },
+        {
+            "ans": "blood pressure",
+            "side": "血壓",
+            "sub": "n. phr."
+        },
+        {
+            "ans": "imagine",
+            "side": "想像",
+            "sub": "v."
+        },
+        {
+            "ans": "invade",
+            "side": "侵略",
+            "sub": "n."
+        },
+        {
+            "ans": "supernatural",
+            "side": "超自然的",
+            "sub": "adj."
+        },
+        {
+            "ans": "dizzy",
+            "side": "頭暈目眩的",
+            "sub": "adj."
+        },
+        {
+            "ans": "firm",
+            "side": "強力的",
+            "sub": "adj."
+        },
+        {
+            "ans": "fragile",
+            "side": "易碎的",
+            "sub": "adj."
+        },
+        {
+            "ans": "ladder",
+            "side": "梯子",
+            "sub": "n."
+        },
+        {
+            "ans": "impatience",
+            "side": "不耐煩",
+            "sub": "n."
+        },
+        {
+            "ans": "lean",
+            "side": "傾斜",
+            "sub": "v."
+        },
+        {
+            "ans": "classic",
+            "side": "one of the best or most important of its kind",
+            "sub": "adj."
+        },
+        {
+            "ans": "grave",
+            "side": "a place in the ground where a dead person is buried",
+            "sub": "n."
+        },
+        {
+            "ans": "terrified",
+            "side": "very frightened",
+            "sub": "adj."
+        },
+        {
+            "ans": "alien",
+            "side": "creatures from another world",
+            "sub": "n."
+        },
+        {
+            "ans": "blood pressure",
+            "side": "the pressure of blood as it travels around the body",
+            "sub": "n. phr."
+        },
+        {
+            "ans": "imagine",
+            "side": "to form a picture in your mind about what something might be like",
+            "sub": "v."
+        },
+        {
+            "ans": "invade",
+            "side": "to enter a country or town using force",
+            "sub": "n."
+        },
+        {
+            "ans": "supernatural",
+            "side": "something that cannot be explained by the lwas of science and that seems to invole magic",
+            "sub": "adj."
+        },
+        {
+            "ans": "dizzy",
+            "side": "feeling as if everything is spinning around you and that you are not able to balance",
+            "sub": "adj."
+        },
+        {
+            "ans": "firm",
+            "side": "strong and steady",
+            "sub": "adj."
+        },
+        {
+            "ans": "fragile",
+            "side": "easily broken or damaged",
+            "sub": "adj."
+        },
+        {
+            "ans": "ladder",
+            "side": "a piece of equipment for climbing up or down something",
+            "sub": "n."
+        },
+        {
+            "ans": "impatience",
+            "side": "the desire to do something soon or for something to happen soon",
+            "sub": "n."
+        },
+        {
+            "ans": "lean",
+            "side": "to bend or move from a vertical position",
+            "sub": "v."
+        },
+        {
+            "ans": "alcohol",
+            "side": "酒精",
+            "sub": "n."
+        },
+        {
+            "ans": "exercise",
+            "side": "運動",
+            "sub": "n."
+        },
+        {
+            "ans": "drug",
+            "side": "毒品",
+            "sub": "n."
+        },
+        {
+            "ans": "food",
+            "side": "食物",
+            "sub": "n."
+        },
+        {
+            "ans": "gambling",
+            "side": "賭博",
+            "sub": "n."
+        },
+        {
+            "ans": "internet",
+            "side": "國際互聯網",
+            "sub": "n."
+        },
+        {
+            "ans": "shopping",
+            "side": "購物",
+            "sub": "n."
+        },
+        {
+            "ans": "tobacco",
+            "side": "煙草",
+            "sub": "n."
+        },
+        {
+            "ans": "video game",
+            "side": "電子遊戲",
+            "sub": "n."
+        },
+        {
+            "ans": "boredom",
+            "side": "無聊",
+            "sub": "n."
+        },
+        {
+            "ans": "curiosity",
+            "side": "好奇心",
+            "sub": "n."
+        },
+        {
+            "ans": "domestic violence",
+            "side": "家庭的暴力行為",
+            "sub": "adj. n."
+        },
+        {
+            "ans": "exam stress",
+            "side": "考試壓力",
+            "sub": "n. phr."
+        },
+        {
+            "ans": "loneliness",
+            "side": "孤獨",
+            "sub": "n."
+        },
+        {
+            "ans": "nervousness",
+            "side": "焦慮",
+            "sub": "n."
+        },
+        {
+            "ans": "parents' divorce",
+            "side": "父母離婚",
+            "sub": "n."
+        },
+        {
+            "ans": "peer pressure",
+            "side": "同輩間的壓力",
+            "sub": "n."
+        },
+        {
+            "ans": "sadness",
+            "side": "悲傷",
+            "sub": "n."
+        },
+        {
+            "ans": "frequently",
+            "side": "經常地",
+            "sub": "adv."
+        },
+        {
+            "ans": "gender",
+            "side": "性別",
+            "sub": "n."
+        },
+        {
+            "ans": "refresh",
+            "side": "刷新",
+            "sub": "v."
+        },
+        {
+            "ans": "upload",
+            "side": "上載",
+            "sub": "v."
+        },
+        {
+            "ans": "castle",
+            "side": "城堡",
+            "sub": "n."
+        },
+        {
+            "ans": "filter",
+            "side": "圖片編輯的濾鏡效果",
+            "sub": "n."
+        },
+        {
+            "ans": "husband",
+            "side": "丈夫",
+            "sub": "n."
+        },
+        {
+            "ans": "sincerely",
+            "side": "真誠地",
+            "sub": "adv."
+        },
+        {
+            "ans": "fulfilling",
+            "side": "令人滿足的",
+            "sub": "adj."
+        },
+        {
+            "ans": "ignore",
+            "side": "忽視",
+            "sub": "v."
+        },
+        {
+            "ans": "instrument",
+            "side": "樂器",
+            "sub": "n."
+        },
+        {
+            "ans": "mealtime",
+            "side": "就餐時間",
+            "sub": "n."
+        },
+        {
+            "ans": "self-help",
+            "side": "自助的",
+            "sub": "adj."
+        },
+        {
+            "ans": "tool",
+            "side": "工具",
+            "sub": "n."
+        },
+        {
+            "ans": "frequently",
+            "side": "regularly or habitually; often",
+            "sub": "adv."
+        },
+        {
+            "ans": "gender",
+            "side": "either or the two sexes (male and female)",
+            "sub": "n."
+        },
+        {
+            "ans": "refresh",
+            "side": "to update the display (on a screen)",
+            "sub": "v."
+        },
+        {
+            "ans": "upload",
+            "side": "to transfer data from one computer to another",
+            "sub": "v."
+        },
+        {
+            "ans": "castle",
+            "side": "a large building, usually of the medieval period, with thick walls and towers",
+            "sub": "n."
+        },
+        {
+            "ans": "filter",
+            "side": "a function used to change the overall appearance of an image in a specific way",
+            "sub": "n."
+        },
+        {
+            "ans": "husband",
+            "side": "a married man considered in relation to his spouse",
+            "sub": "n."
+        },
+        {
+            "ans": "sincerely",
+            "side": "in a genuine or honest way",
+            "sub": "adv."
+        },
+        {
+            "ans": "fulfilling",
+            "side": "making someone satisfied or happy through allowing their character or abillities to develop fully",
+            "sub": "adj."
+        },
+        {
+            "ans": "ignore",
+            "side": "refuse to take notice of or acknowledge",
+            "sub": "v."
+        },
+        {
+            "ans": "instrument",
+            "side": "an object or device for producing musical sounds",
+            "sub": "n."
+        },
+        {
+            "ans": "mealtime",
+            "side": "the time at which a meal is eaten",
+            "sub": "n."
+        },
+        {
+            "ans": "self-help",
+            "side": "designed to assit people in achieving things for themselves",
+            "sub": "adj."
+        },
+        {
+            "ans": "tool",
+            "side": "a thing used to help perform a job",
+            "sub": "n."
+        }
+    ]
+}
