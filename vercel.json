@@ -1,5 +1,5 @@
 {
     "rewrites": [
-      { "source": "/:cdID", "destination": "/" }
+      { "source": "/cg/:cdID", "destination": "/" }
     ]
   }
