@@ -1,0 +1,163 @@
+---
+layout: default
+---
+<h1 id="page-title">歡迎使用本工具</h1>
+<span id="challenge-time"><span class="m"></span> 分鐘 <span class="s"></span> 秒</span><br>
+<section class="box" id="home-box">
+    <h2>請輸入文件代號</h2>
+    <input type="text" placeholder="請輸入文件代號" id="cgID">
+    <button onclick="challenge_now();">立即挑戰</button>
+</section>
+<script>
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+        return false;
+    };
+    function checkURLExists(url){
+        var request;
+        if(window.XMLHttpRequest)
+            request = new XMLHttpRequest();
+        else
+            request = new ActiveXObject("Microsoft.XMLHTTP");
+        request.open('GET', url, false);
+        request.send(); // there will be a 'pause' here until the response to come.
+        // the object request will be actually modified
+        if (request.status === 404) {
+            return false;
+        }
+        return true;
+    }
+    //
+    //
+    //
+    $(document).ready(function(){
+        $("#challenge-time").hide();
+        if(getUrlParameter('cgID')){
+            if(checkURLExists("/data/" + getUrlParameter('cgID') + ".json")){
+                $.getJSON("/data/" + getUrlParameter('cgID') + ".json", function(data){
+                    playChallenge(data);
+                });
+            }
+            else{
+                alert("文件不存在");
+            }
+        }
+        $('#inputer').bind("enterKey",function(e){
+            quest.check();
+        });
+        $('#inputer').keyup(function(e){
+            if(e.keyCode == 13)
+            {
+                $(this).trigger("enterKey");
+            }
+        });
+    });
+    //
+    function challenge_now(){
+        if($("#cgID").val()){
+            if(checkURLExists("/data/" + $("#cgID").val() + ".json")){
+                $.getJSON("/data/" + $("#cgID").val() + ".json", function(data){
+                    playChallenge(data);
+                });
+            }
+            else{
+                alert("文件不存在");
+            }
+        }
+        else{
+            alert("請輸入文件代號");
+        }
+    }
+    
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array;
+    }
+
+    var List;
+
+    var nowProblem = {
+        id: 0,
+        ans: '',
+        side: '',
+        sub: ''
+    };
+
+    class questKit{
+        complete(){
+            clearInterval(timer);
+            $("#challenge-box .title").text(`恭喜你完成了這次的挑戰！`);
+            $("#challenge-box .wrap").html(`總用時： ${Math.floor(secCounter / 60)} 分鐘 ${(secCounter % 60).toFixed(1)} 秒`);
+        }
+        start(id){
+            if(id <= List.length){
+                $("#challenge-box .input").val("");
+                nowProblem.id = id;
+                nowProblem.ans = List[id - 1]["ans"];
+                nowProblem.side = List[id - 1]["side"];
+                nowProblem.sub = List[id - 1]["sub"];
+                $("#challenge-box .title").text(`${id} of ${List.length}`);
+                $("#challenge-box .sub").text(nowProblem.sub);
+                $("#challenge-box .side").text(nowProblem.side);
+            }
+            else{
+                quest.complete();
+            }
+        }
+        check(){
+            if($("#challenge-box .input").val() == nowProblem.ans){
+                $("#challenge-box .result").removeClass("wrong");
+                quest.start(nowProblem.id + 1);
+            }
+            else{
+                $("#challenge-box .result").addClass("wrong");
+            }
+        }
+    }
+
+    var quest = new questKit();
+
+    var timer;
+
+    function playChallenge(data){
+        $("#home-box").hide();
+        $("#challenge-box").show();
+        $("#challenge-time").show();
+        $("#page-title").text(`${data.title}（目前版本：${data.version}）`);
+        List = shuffleArray(data.list);
+        quest.start(1);
+        timer = setInterval(countSec, 100);
+    }
+
+    var secCounter = 0;
+    function countSec(){
+        secCounter += 0.1;
+        $("#challenge-time .m").text(Math.floor(secCounter / 60));
+        $("#challenge-time .s").text((secCounter % 60).toFixed(1));
+    }
+</script>
+<section class="box" id="challenge-box">
+    <h2 class="title"></h2>
+    <div class="wrap">
+        <div class="content"><span class="sub"></span><span class="side"></span></div>
+        <input type="text" class="input" id="inputer" placeholder="請輸入你的答案" value="">
+        <div class="result"></div>
+        <button onclick="quest.check()" id="challenge-submit">提交</button>
+    </div>
+</section>

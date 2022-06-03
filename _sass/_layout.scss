@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    max-width: 90vw;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+section.box{
+    padding: 20px;
+    width: 100%;
+    border: 1.5px solid rgba(0,0,0,0.125);
+    border-radius: 10px;
+    button{
+        display: block;
+        width: 100%;
+        margin: .5em 0;
+    }
+    input{
+        width: 100%;
+    }
+    h2{
+        margin-top: 0px;
+    }
+}
+
+#challenge-box{
+    display: none;
+    .time{
+        .m, .s{
+            display: inline-block;
+            width: 3em;
+            text-align: center;
+        }
+    }
+    .sub{
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+    .content{
+        padding: 5px 10px;
+        width: 100%;
+        border: 1px solid rgba(0,0,0,0.125);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    button{
+        margin-bottom: 0;
+    }
+    .result{
+        display: none;
+        padding: 5px 10px;
+        width: 100%;
+        border-radius: 10px;
+        font-weight: 500;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        &.wrong{
+            display: block;
+            background-color: #CB0909;
+            &::after{
+                content: '答案錯誤';
+            }
+        }
+    }
+}
+
+.footer{
+    padding: 5px 10px;
+    text-align: center;
+    color: #aaaaaa;
+    position: absolute;
+    bottom: 10px;
+}
