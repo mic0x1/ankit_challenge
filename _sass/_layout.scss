@@ -35,6 +35,9 @@ section.box{
 
 #challenge-box{
     display: none;
+    input{
+        text-transform: lowercase;
+    }
     .time{
         .m, .s{
             display: inline-block;

@@ -121,7 +121,7 @@ layout: default
             }
         }
         check(){
-            if($("#challenge-box .input").val().toLowerCaae() == nowProblem.ans){
+            if($("#challenge-box .input").val().toLowerCase() == nowProblem.ans){
                 $("#challenge-box .result").removeClass("wrong");
                 quest.start(nowProblem.id + 1);
             }
@@ -156,7 +156,7 @@ layout: default
     <h2 class="title"></h2>
     <div class="wrap">
         <div class="content"><span class="sub"></span><span class="side"></span></div>
-        <input type="text" class="input" id="inputer" placeholder="請輸入你的答案" value="">
+        <input type="text" class="input" id="inputer" spellcheck="false" placeholder="請輸入你的答案" value="">
         <div class="result"></div>
         <button onclick="quest.check()" id="challenge-submit">提交</button>
     </div>
