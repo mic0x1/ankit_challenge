@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1 id="page-title">歡迎使用本工具</h1>
+<h1 id="page-title">歡迎使用 Ankit Challenge</h1>
 <span id="challenge-time"><span class="m"></span> 分鐘 <span class="s"></span> 秒</span><br>
 <section class="box" id="home-box">
     <h2>請輸入文件代號</h2>
@@ -99,11 +99,22 @@ layout: default
         sub: ''
     };
 
+    var wrongList = [""];
+
     class questKit{
         complete(){
             clearInterval(timer);
             $("#challenge-box .title").text(`恭喜你完成了這次的挑戰！`);
-            $("#challenge-box .wrap").html(`總用時： ${Math.floor(secCounter / 60)} 分鐘 ${(secCounter % 60).toFixed(1)} 秒`);
+            $("#challenge-box .input").hide();
+            $("#challenge-submit").hide();
+            $("#challenge-box .content").text("總用時：" + `${Math.floor(secCounter / 60)} 分鐘 ${(secCounter % 60).toFixed(1)} 秒`);
+            if(wrongList.length > 1){
+                $("#challenge-box .content").append("<br><br><b>錯誤：</b>");
+                for(var i = 1; i<= wrongList.length - 1; i++){
+                    $("#challenge-box .content").append("<br>");
+                    $("#challenge-box .content").append(wrongList[i]);
+                }
+            }
         }
         start(id){
             if(id <= List.length){
@@ -126,6 +137,7 @@ layout: default
                 quest.start(nowProblem.id + 1);
             }
             else{
+                wrongList.push(nowProblem.ans + " ... " + nowProblem.side);
                 $("#challenge-box .result").addClass("wrong");
             }
         }
