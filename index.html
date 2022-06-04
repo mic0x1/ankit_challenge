@@ -110,6 +110,7 @@ layout: default
             $("#challenge-box .content").text("總用時：" + `${Math.floor(secCounter / 60)} 分鐘 ${(secCounter % 60).toFixed(1)} 秒`);
             if(wrongList.length > 1){
                 $("#challenge-box .content").append("<br><br><b>錯誤：</b>");
+                $("#challenge-box .content").append("<br>你的答案 ... 正確答案 ... 對照內容");
                 for(var i = 1; i<= wrongList.length - 1; i++){
                     $("#challenge-box .content").append("<br>");
                     $("#challenge-box .content").append(wrongList[i]);
@@ -137,7 +138,7 @@ layout: default
                 quest.start(nowProblem.id + 1);
             }
             else{
-                wrongList.push(nowProblem.ans + " ... " + nowProblem.side);
+                wrongList.push($("#challenge-box .input").val().toLowerCase() + " ... " + nowProblem.ans + " ... " + nowProblem.side);
                 $("#challenge-box .result").addClass("wrong");
             }
         }
